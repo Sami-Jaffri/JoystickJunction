@@ -9,7 +9,7 @@ Public methods:
 <%@ page import="java.sql.*"%>
 
 <%!
-	String dbURL = "jdbc:mysql://165.22.233.10:3307/orders";
+	private String url = "jdbc:mysql://165.22.233.10:3307/orders";
 	private String uid = "sa";
 	private String pw = "304#sa#pw";
 	
