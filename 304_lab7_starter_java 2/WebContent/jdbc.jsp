@@ -9,11 +9,11 @@ Public methods:
 <%@ page import="java.sql.*"%>
 
 <%!
-	private String url = "jdbc:sqlserver://cosc304_sqlserver:1433;DatabaseName=orders;TrustServerCertificate=True";
+	String dbURL = "jdbc:mysql://165.22.233.10:3307/orders";
 	private String uid = "sa";
 	private String pw = "304#sa#pw";
 	
-	private String urlForLoadData = "jdbc:sqlserver://cosc304_sqlserver:1433;TrustServerCertificate=True";
+	private String urlForLoadData = "jdbc:sqlserver://165.22.233.10:3307;TrustServerCertificate=True";
 	
 	private Connection con = null;
 %>
