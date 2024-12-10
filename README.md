@@ -89,7 +89,7 @@ We welcome contributions to improve Joystick Junction!
 
 ## 📜 **License**
 
-This project is open source. See the [LICENSE](LICENSE) file for details.  
+This project is open source. Do as you wish :) 
 
 ---
 
