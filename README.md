@@ -1,6 +1,6 @@
 # Joystick Junction
 
-A web-based platform for exploring and managing triple-A game titles.
+Joystick Junction is your ultimate gateway to the thrilling universe of gaming! Born out of a passion for gaming and technology, this platform was created as a project for COSC 304 at the University of British Columbia (UBC). Designed to be a one-stop hub for exploring and managing triple-A game titles, Joystick Junction offers a sleek, user-friendly interface where gamers can discover blockbuster games, organize their library, and stay updated on the latest industry trends. Whether you're a casual player or a hardcore enthusiast, Joystick Junction has something to amplify your gaming experience.
 
 ## Getting Started
 
