@@ -1,50 +1,97 @@
-# Joystick Junction
 
-Joystick Junction is your ultimate gateway to the thrilling universe of gaming! Born out of a passion for gaming and technology, this platform was created as a project for COSC 304 at the University of British Columbia (UBC). Designed to be a one-stop hub for exploring and managing triple-A game titles, Joystick Junction offers a sleek, user-friendly interface where gamers can discover blockbuster games, organize their library, and stay updated on the latest industry trends. Whether you're a casual player or a hardcore enthusiast, Joystick Junction has something to amplify your gaming experience.
+# 🎮 **Joystick Junction** 🎮
 
-## Getting Started
+Welcome to **Joystick Junction**, your ultimate gateway to the thrilling universe of gaming!  
 
-Follow these instructions to set up and run the project locally.
+Born out of a passion for gaming and technology, this platform was developed as a project for **COSC 304** at the **University of British Columbia (UBC)**. Designed to be a one-stop hub for exploring and managing triple-A game titles, Joystick Junction offers:  
+- 🌟 A sleek and user-friendly interface.  
+- 🕹️ Tools to organize your gaming library.  
+- 📰 Updates on the latest industry trends.  
 
-### Prerequisites
+Whether you're a casual player or a hardcore enthusiast, Joystick Junction is here to amplify your gaming experience.  
 
-Ensure the following are installed on your system:
+---
 
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
+## 🚀 **Getting Started**  
 
-### Installation and Usage
+Follow these steps to set up and run the project locally.  
 
-1. Clone the repository:
+### **Prerequisites**  
+Ensure the following are installed on your system:  
+- 🐳 [Docker](https://www.docker.com/)  
+- ⚙️ [Docker Compose](https://docs.docker.com/compose/)  
+
+---
+
+### **Installation and Usage**
+
+1. **Clone the Repository:**  
+   Open your terminal and run:  
    ```bash
    git clone https://github.com/Sami-Jaffri/JoystickJunction.git
    cd JoystickJunction
    ```
 
-2. Run the application using Docker Compose:
+2. **Start the Application:**  
+   Use Docker Compose to build and run the services:  
    ```bash
    docker-compose up -d
    ```
 
-3. Access the web application:
-   Open your browser and navigate to `http://localhost/shop/loaddata.jsp` (or the port specified in the `docker-compose.yml` file). This will load the database for the website. From there navigate to `http://localhost/shop/login.jsp`
+3. **Load the Database:**  
+   Open your browser and navigate to:  
+   ```plaintext
+   http://localhost/shop/loaddata.jsp
+   ```  
 
-### Stopping the Application
+4. **Access the Login Page:**  
+   Once the database is loaded, go to:  
+   ```plaintext
+   http://localhost/shop/login.jsp
+   ```  
 
-To stop the running application:
+5. **Log In:**  
+   Use the following customer credentials to explore the site:  
+
+   | Username | Password      |
+   |----------|---------------|
+   | arnold   | 304Arnold!    |
+   | bobby    | 304Bobby!     |
+
+---
+
+### 🛑 **Stopping the Application**  
+
+To stop and clean up the application, run:  
 ```bash
 docker-compose down
 ```
 
-### File Structure
+---
 
-- `Dockerfile`: Configuration for building the application image.
-- `docker-compose.yml`: Orchestrates the application services.
+## 📂 **File Structure**
 
-### Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
+Here's an overview of the key files and directories:  
+- **`Dockerfile`**: Instructions for building the application image.  
+- **`docker-compose.yml`**: Configuration to orchestrate services.  
+- **`/shop`**: Contains the core web application files.  
 
 ---
 
-Happy gaming! 🎮
+## 💡 **Contributing**
+
+We welcome contributions to improve Joystick Junction!  
+- Fork the repository.  
+- Create a feature branch.  
+- Submit a pull request with your proposed changes.  
+
+---
+
+## 📜 **License**
+
+This project is open source. See the [LICENSE](LICENSE) file for details.  
+
+---
+
+### 🎉 **Happy Gaming!**  
+Grab your controller, explore the latest games, and let the fun begin! 🚀
