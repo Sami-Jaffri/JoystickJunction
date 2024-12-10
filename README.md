@@ -27,7 +27,7 @@ Ensure the following are installed on your system:
    ```
 
 3. Access the web application:
-   Open your browser and navigate to `http://localhost:8000` (or the port specified in the `docker-compose.yml` file).
+   Open your browser and navigate to `http://localhost/shop/loaddata.jsp` (or the port specified in the `docker-compose.yml` file). This will load the database for the website. From there navigate to `http://localhost/shop/login.jsp`
 
 ### Stopping the Application
 
@@ -44,10 +44,6 @@ docker-compose down
 ### Contributing
 
 Contributions are welcome! Please fork the repository and create a pull request with your proposed changes.
-
-### License
-
-This project is open source. See the [LICENSE](LICENSE) file for details.
 
 ---
 
